@@ -29,7 +29,7 @@ Large: 1.8
 #fae5d3
 #eb984e
 
-- Shades: 
+- Shades:
 #cf711f
 #45260a
 
@@ -204,18 +204,10 @@ body {
 
 .btn--outline:link,
 .btn--outline:visited {
-  background-color: #fff;
+  background-color: transparent;
   color: #555;
-}
-
-.btn--outline:hover,
-.btn--outline:active {
-  background-color: #fdf2e9;
-
-  /* border: 3px solid #fff; */
-
-  /* Trick to add border inside */
-  box-shadow: inset 0 0 0 3px #fff;
+  padding: 0;
+  text-decoration: underline;
 }
 
 .btn--form {
